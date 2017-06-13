@@ -1,0 +1,12 @@
+applications:
+- buildpack: java_buildpack
+  disk_quota: 1G
+  env: {BROKER_SERVICE_NAME: dev-casemgmt-blostore, SPRING_PROFILES_ACTIVE: cloud,
+    assetUser: poaMigUser, assetUserPassword: m1gr4t10nU53r, asset_service_name: cups-asset,
+    corsControlAllowOrigin: .*, excursionBaseUri: 'https://excursions-dev.run.asv-pr.ice.predix.io',
+    excursionQueryContext: /v2/excursions/, uaa_client_id: webapp.cee5b45f-d309-4898-a5a2-912c30296578.cc3367a5-7d92-41ef-9017-b06088cb5b81,
+    uaa_client_secret: 1l86yqjg00lzl5197vipa7ouxo9twfe0ne7t6c, uaa_service_name: cups-apm-uaa}
+  memory: 1G
+  name: casemgmt-dev1
+  path: target/casemgmt-svc-1.0.0.jar
+  services: [cups-apm-uaa, dev-casemgmt-postgres, cups-asset, dev-casemgmt-blostore]

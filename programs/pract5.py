@@ -1,0 +1,6 @@
+n=str(1234)
+print(len(n))
+l=input('enter no:')
+print(len(l))
+r=list(l)
+print(r)

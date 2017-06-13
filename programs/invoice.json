@@ -1,0 +1,44 @@
+[
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ674",
+    "Amount":  200 ,
+    "month " :  "Jan"
+  },
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ675",
+    "Amount": 225 ,
+    "month": "FEB"
+  },
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ676",
+    "Amount": 185 ,
+    "month": "MAR"
+  },
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ677",
+    "Amount": 245 ,
+    "month": "APril"
+  },
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ678",
+    "Amount": 261 ,
+    "month": "May"
+  },
+  {
+    "customer id": " NPA241",
+    "customer name": " Pankaj",
+    "invoice ": "AZ679",
+    "Amount": 258 ,
+    "month": "June"
+  }
+]

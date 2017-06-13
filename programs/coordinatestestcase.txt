@@ -1,0 +1,10 @@
+Test cases for coordinates problem:
+
+Case1: The input origin coordinates must be real not imaginary(complex numbers) like (3,4i).
+->If it is complex number then we need to take the magnitude of the coordinates only.
+
+Case2: The square root will give both positive and negative numbers as output, but the distance always be positive.
+->If the distance is negative then we can apply modulus operator to the result to get the positive distance.
+
+Case3: If the user does not give any input then it will take by default origin coordinates(0,0) as their input.
+-> Or ask the user to enter the input again untill get the input.
