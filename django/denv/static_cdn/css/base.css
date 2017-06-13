@@ -1,0 +1,12 @@
+h1 {
+	color: #FFF;
+}
+
+.wmd-panel{
+	margin-right:  0px ! important;
+	margin-left: 0px ! important;
+}
+
+.comment-reply{
+	display: none;
+}

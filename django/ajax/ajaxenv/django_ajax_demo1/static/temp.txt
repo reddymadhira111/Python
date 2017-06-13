@@ -1,0 +1,4 @@
+To confirm your setup, create a file named
+    /home/myname/django_files/django_ajax_demo/static/temp.txt
+containing something. Then in your browser, you should be able to see that text at the url
+    http://my.website/color_liker/static/temp.txt
